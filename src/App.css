@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  text-align: center;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 90vmin;
+  align-items: center;
+  justify-content: center;
+  border: lightcoral 4px solid;
+  background-color: lightblue;
+  border-radius: 1%;
+  padding: 5vmin;
+}
+
+.card {
+text-align: left;
+width: 50vmin;
+background-color: linear-gradient();
+margin: 5vmin;
+border: whitesmoke 5px solid;
+background-color: gray;
+color: whitesmoke;
+}
+
+div.card {
+padding: 3vmin;
+}

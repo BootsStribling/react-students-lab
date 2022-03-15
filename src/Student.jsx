@@ -6,7 +6,7 @@ const Student = (props) => {
       {props.students.map((student, idx) => 
         <div key={idx} className="card">
           <br/>
-          Name: {student.name}<br/>
+          {student.name}<br/>
           <br/>
           About Me: {student.bio}<br/>
           <br/>

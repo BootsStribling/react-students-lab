@@ -3,13 +3,14 @@
 const Score = (props) => {
   return ( 
     <>
-      <ul>
-        {props.scores.map((score, idx) => 
-            <div key={idx}>
-            {score.score}-<span>{score.date}</span>
-            </div>
+      <div className="score-container">
+        {props.scores.map((score, idx) =>
+              <div key={idx} className="card score-card" >
+              <p>{score.date}</p>
+              <h7>{score.score}</h7>
+              </div>
             )}
-      </ul>
+      </div>
     </>
   );
 }

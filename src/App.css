@@ -51,8 +51,8 @@
   width: 90vmin;
   align-items: center;
   justify-content: center;
-  border: lightcoral 4px solid;
-  background-color: lightblue;
+  border: gray 4px solid;
+  background-color: darkblue;
   border-radius: 1%;
   padding: 5vmin;
 }
@@ -65,8 +65,30 @@ margin: 5vmin;
 border: whitesmoke 5px solid;
 background-color: gray;
 color: whitesmoke;
+padding: 3vmin;
+box-shadow: 2px gray;
 }
 
-div.card {
-padding: 3vmin;
+
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.card.score-card{
+  display: flex;
+  flex-direction: column;
+  max-width: 40vmin;
+  padding: 1vmin;
+  margin: 1vmin;
+  
+}
+
+div.card.score-card p {
+  font-size: .5rem;
+}
+
+div.card.score-card > h7 {
+  text-align: center;
 }
